@@ -2,10 +2,12 @@
 <html>
     <body>
             <?php
-                echo"<h1>Find Out SUM  of two Numbers</h1>";
-                echo"<br>";
-                echo"Enter any two Numbers";
-                echo"<br>";
+                // echo"<h1>Find Out SUM  of two Numbers</h1>";
+                // echo"<br>";
+                // echo"Enter any two Numbers";
+                // echo"<br>";
+
+                echo "Enter Multiple Number with Comma Separetors to find SUM";
             ?>
             <!-- <form method="post">
                 Frist Number:   <input type="text" name="Frist Number"><br>
@@ -14,9 +16,12 @@
             </form> -->
 
             <form action=result.php method="POST">
-                Frist Number:   <input type="text" name="Fnumber"><br>
-                <br>Secound Number:    <input type="text" name="Snumber"><br>
-                <br><input type="submit">
+                Enter Numbers: <input type="text" name="Enumbers">
+                <!-- Frist Number:   <input type="text" name="Fnumber">
+                <br>
+                Secound Number:    <input type="text" name="Snumber"><br> -->
+                <br>
+                <input type="submit">
             </form>
 
 </body>
@@ -24,8 +29,7 @@
 
 
 
-<!-- 
-/*
+<!--
 1. To create form use the <form> tag.
 2. form elements are different type - input elements, checkboxes, radio buttons, submit buttons, and many.
 3. form tag properites - 
@@ -36,7 +40,7 @@
 4. The input element is the most important form element.
     input element can be created using the <input> tag.
     The input element has many variations, depending on the type attribute.
-*/ -->
+-->
 
 <!-- 
             echo "<h2>Findout SUM  of two Numbers</h2>";
